@@ -40,7 +40,7 @@ function iLoveTheBeatles(num) {
 	do {
 	i++;
 	arr.push(str);
-	} while(i < num + 1);
+	} while(i < num + 1 && num < 15);
 	return arr;
 }
 
